@@ -13,12 +13,12 @@ public class Department implements Serializable{
 	}
 
 	public Department(Integer id, String name) {
-		id = id;
+		this.id = id;
 		this.name = name;
 	}
 
 	public Integer getId() {
-		return id;
+		return this.id;
 	}
 
 	public void setId(Integer id) {
@@ -26,7 +26,7 @@ public class Department implements Serializable{
 	}
 
 	public String getName() {
-		return name;
+		return this.name;
 	}
 
 	public void setName(String name) {
